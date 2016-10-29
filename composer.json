@@ -1,0 +1,11 @@
+{
+    "name": "vendor/customlib",
+    "description": "create structure custom library for php, without realization functionality",
+    "authors": [
+        {
+            "name": "MaxStrut",
+            "email": "max.strutinskiy@gmail.com"
+        }
+    ],
+    "require": {}
+}
