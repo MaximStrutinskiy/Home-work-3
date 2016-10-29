@@ -1,5 +1,5 @@
 {
-    "name": "vendor/customlib",
+    "name": "ghub/customlib",
     "description": "create structure custom library for php, without realization functionality",
     "type": "library",
     "license": "MaksovskiyLic",
