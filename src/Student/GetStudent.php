@@ -9,6 +9,6 @@ class GetStudent extends AbstractGetStudent implements StudentInterface
      */
     public function getStudentName($studentName)
     {
-        echo '1: ', $this->studentName;
+        echo $this->studentName;
     }
 }
