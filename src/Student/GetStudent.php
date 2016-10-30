@@ -5,7 +5,9 @@ namespace Vendor\Render\Student;
 class GetStudent extends AbstractGetStudent implements StudentInterface
 {
     /**
-     * {@inheritdoc}
+     * Outputs the result: $studentName
+     *
+     * @param string $studentName
      */
     public function getStudentName($studentName)
     {

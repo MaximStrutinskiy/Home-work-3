@@ -10,7 +10,10 @@ class GetStudentDate extends GetStudent implements StudentDateInterface
     private $studentDate;
 
     /**
-     * {@inheritdoc}
+     * Variable definition: $studentDate,
+     * and outputs the result
+     *
+     * @param string $studentDate
      */
     public function getStudentDate($studentDate)
     {

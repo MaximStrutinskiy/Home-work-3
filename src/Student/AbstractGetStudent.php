@@ -10,6 +10,8 @@ abstract class AbstractGetStudent
     protected $studentName;
 
     /**
+     * Variable definition: $studentName
+     *
      * @param string $studentName
      */
     public function __construct($studentName)
