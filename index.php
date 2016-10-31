@@ -19,3 +19,6 @@ $showStudentInfo2 = new \Vendor\Render\Student\GetStudentDate($faker->name);
 $showStudentInfo2->getStudentName('');
 $showStudentInfo2->getStudentDate('');
 
+//example 3;
+$showStudentInfo2 = new \Vendor\Render\Student\GetStudentComposition($faker->name);
+$showStudentInfo2->render();
