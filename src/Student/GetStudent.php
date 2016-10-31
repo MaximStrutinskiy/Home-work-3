@@ -5,7 +5,7 @@ namespace Vendor\Render\Student;
 class GetStudent extends AbstractGetStudent implements StudentInterface
 {
     /**
-     * Outputs the result: $studentName
+     * Outputs the result: $studentName.
      *
      * @param string $studentName
      */

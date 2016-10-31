@@ -1,10 +1,10 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 
 /**
  * Use library Faker
- * Doc: https://packagist.org/packages/fzaninotto/faker
+ * Doc: https://packagist.org/packages/fzaninotto/faker.
  *
  * @param string $faker
  **/

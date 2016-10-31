@@ -11,7 +11,7 @@ class GetStudentDate extends GetStudent implements StudentDateInterface
 
     /**
      * Variable definition: $studentDate,
-     * and outputs the result
+     * and outputs the result.
      *
      * @param string $studentDate
      */

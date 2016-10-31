@@ -2,7 +2,7 @@
 
 namespace Vendor\Render\Student;
 
-use \Vendor\Render\Student\GetStudent as GetStudentName;
+use Vendor\Render\Student\GetStudent as GetStudentName;
 
 class GetStudentComposition
 {

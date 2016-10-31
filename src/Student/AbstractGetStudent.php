@@ -10,7 +10,7 @@ abstract class AbstractGetStudent
     protected $studentName;
 
     /**
-     * Variable definition: $studentName
+     * Variable definition: $studentName.
      *
      * @param string $studentName
      */
