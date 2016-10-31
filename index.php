@@ -21,4 +21,4 @@ $showStudentInfo2->getStudentDate('');
 
 //example 3;
 $showStudentInfo2 = new \Vendor\Render\Student\GetStudentComposition($faker->name);
-$showStudentInfo2->render();
+$showStudentInfo2->renderStudentName();

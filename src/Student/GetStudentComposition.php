@@ -9,13 +9,13 @@ class GetStudentComposition
     protected $creeateStudent;
     protected $getStudent;
 
-    public function __constructor(GetStudentName $getStudent)
+    public function __constructor($getStudent)
     {
         $this->creeateStudent = new GetStudentName($getStudent);
         $this->getStudent = $this->creeateStudent->getStudentName($getStudent);
     }
 
-    public function render()
+    public function renderStudentName()
     {
         echo $this->getStudent;
     }
