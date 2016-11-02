@@ -1,5 +1,5 @@
 {
-    "name": "ghub/customlib",
+    "name": "ghub/render",
     "description": "create structure custom library for php, without realization functionality",
     "type": "library",
     "license": "MaksovskiyLic",
@@ -11,10 +11,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vendor\\customlib\\": "src"
+            "Vendor\\Render\\": "src"
         }
     },
     "require": {
-      "php": ">=5.6.0"  
+      "php": ">=5.6.0",
+        "fzaninotto/faker": ">=1.6"
     }
 }
